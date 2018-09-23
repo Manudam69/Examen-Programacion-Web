@@ -1,0 +1,175 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+}
+
+#pear{
+    color: #00baff;
+}
+
+header span{
+    font-size: 40px;
+    color: #e3e3e3;
+}
+td,tr{
+    border: none;
+    text-align: left;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+pre{
+    color: #8b8989;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#head{
+    margin-left: 4%;
+}
+
+header{
+    height: 150px;
+    background-color:#222;
+    color: #918585;
+    margin-bottom: 5px;
+}
+footer{
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+    height:80px;
+    color: white;
+    margin-top: 20px;
+    background-color:#222;
+    text-align: center;
+}
+footer img{
+    margin-top:-15px;
+}
+
+
+.numero{
+    text-align: right;
+    padding-right: 3%;
+    font-size: 20px;
+    color: #00baff;
+}
+
+#tabla{
+    width: 100%;
+    margin-left: 75%;
+}
+
+}
+
+
+/*---------- Wrapper --------------------*/
+
+
+ul {
+	text-align: right;
+    
+}
+
+ul li {
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+	-webkit-transition: padding .05s linear;
+	-moz-transition: padding .05s linear;
+	-ms-transition: padding .05s linear;
+	-o-transition: padding .05s linear;
+	transition: padding .05s linear;
+    
+}
+ul li.drop {
+	position: relative;
+}
+ul > li {
+	display: inline-block;
+}
+ul li a {
+	line-height: 8px;
+	padding: 0 10px;
+	height: 30px;
+	color:white;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+}
+ul li a:hover {
+	color: #eee;
+}
+
+.dropOut .triangle {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid white;
+	top: -8px;
+	left: 50%;
+	margin-left: -8px;
+}
+.dropdownContain {
+	width: 160px;
+	position: absolute;
+	z-index: 2;
+	left: 70%;
+	margin-left: -80px; /* half of width */
+	top: -400px;
+}
+.dropOut {
+	width: 140px;
+	background: white;
+	float: left;
+	position: relative;
+	margin-top: 0px;
+	opacity: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+}
+
+.dropOut ul {
+	float: left;
+	padding: 10px 0;
+}
+.dropOut ul li {
+	text-align: left;
+	float: left;
+	width: 125px;
+	padding: 12px 0 10px 15px;
+	margin: 0px 10px;
+	color: #777;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: background .1s ease-out;
+	-moz-transition: background .1s ease-out;
+	-ms-transition: background .1s ease-out;
+	-o-transition: background .1s ease-out;
+	transition: background .1s ease-out;
+}
+
+.dropOut ul li:hover {
+	background: #f6f6f6;
+}
+
+ul li:hover a { color: #00baff; }
+ul li:hover .dropdownContain { top: 25px; }
+ul li:hover .underline { border-bottom-color: #777; }
+ul li:hover .dropOut { opacity: 1; margin-top: 8px; }
