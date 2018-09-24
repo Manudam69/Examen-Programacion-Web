@@ -39,10 +39,7 @@ iframe {
     margin-bottom: 7%;
     margin-left: 8%;
 }
-#next {
-    margin-left: 42%;
-    margin-top: -7%;
-}
+
 header {
     height: 150px;
     background-color: #222;
@@ -60,7 +57,7 @@ header {
 #audio {
     margin-left: 8%;
     width: 23%;
-    margin-top: -31%;
+    margin-top: -36%;
 }
 legend {
     text-align: center;
